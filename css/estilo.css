@@ -1,0 +1,125 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+ 
+  background-color: rgb(6, 7, 19);
+ 
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1110px;
+    margin: auto;
+    margin-top: 15px;
+
+}
+
+.logo{
+    font-size: 36px;
+}
+a{
+    font-family: 'M PLUS 1p', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);   
+}
+
+ul{
+    font-family: 'M PLUS 1p', sans-serif;
+    list-style: none;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: flex-end;
+    gap: 38px  
+}
+main{
+    background: linear-gradient(180deg, rgba(3, 3, 30, 0.41) 0%, rgba(11, 32, 63, 0) 92.19%);
+    width: 1110px;
+    margin: auto;
+}
+.hero{
+    height: 90vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sobre{
+ 
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    height: 50vh;
+    margin-bottom:320px ;
+    
+}
+
+.sobre p{
+    width: 459px;
+    font-size: 18px;
+}
+.portifolio{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-items:center;
+    flex-direction: column; 
+    justify-content: center;
+    margin-bottom: 64px;
+    
+    
+    
+}
+
+.desenho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70vh;
+}
+
+.site{
+    display: flex;
+    justify-items:center;
+    justify-content: space-between;
+    height: 46vh;
+    margin-top: 160px;
+}
+
+.vetor{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 90px;
+}
+
+h1,h3,.logo{
+    
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    color: #00D1FF;
+    font-size: 32px;
+  
+    
+}
+p{
+    color: white;
+    font-family: 'Shippori Antique B1', sans-serif;
+    line-height: 20px;
+    width: 459px;
+    margin-top: 12px;   
+}
+.seta{
+    display: flex;
+    justify-content: end;
+}
